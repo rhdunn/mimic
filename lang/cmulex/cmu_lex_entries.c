@@ -9,14 +9,14 @@ const int cmu_lex_num_bytes =
 #include "cmu_lex_num_bytes.c"
 ;
 
-const int cmu_lex_num_entries = 42291;
+const int cmu_lex_num_entries = 47751;
 
 const char * const cmu_lex_phone_table[57] = 
 {
     "_epsilon_",
-    "ax0",
     "ey1",
     "l",
+    "ah0",
     "p",
     "ih1",
     "r",
@@ -27,6 +27,7 @@ const char * const cmu_lex_phone_table[57] =
     "aa1",
     "n",
     "k",
+    "iy1",
     "th",
     "eh0",
     "s",
@@ -37,14 +38,15 @@ const char * const cmu_lex_phone_table[57] =
     "aa0",
     "ae1",
     "ow1",
-    "ih0",
     "iy0",
-    "ow0",
-    "ey0",
-    "uw1",
-    "v",
-    "iy1",
+    "ih0",
     "z",
+    "ow0",
+    "y",
+    "zh",
+    "ey0",
+    "aw1",
+    "uw1",
     "uw0",
     "ng",
     "sh",
@@ -55,20 +57,18 @@ const char * const cmu_lex_phone_table[57] =
     "hh",
     "ay1",
     "jh",
-    "aw1",
     "aw0",
+    "v",
+    "ax0",
     "ch",
-    "zh",
-    "y",
-    "uh1",
-    "dh",
-    "w",
     "er1",
-    "oy1",
+    "uh1",
     "ay0",
-    "oy0",
+    "w",
     "uh0",
-    "ah0",
+    "dh",
+    "oy1",
+    "oy0",
     NULL
 };
 
